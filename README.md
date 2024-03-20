@@ -22,11 +22,11 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/rajkumarpave/hr-dashboard.git
+   git clone https://github.com/rajkumarpave/hr-dashboard-react.git
    ```
 2. **Navigate to the Project Directory**: Move into the project directory:
    ```
-   cd hr-dashboard
+   cd hr-dashboard-react
    ```
 3. **Install Dependencies**: Install the necessary dependencies using npm or yarn:
    ```
