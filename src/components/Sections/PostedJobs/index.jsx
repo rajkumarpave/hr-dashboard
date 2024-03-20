@@ -46,9 +46,13 @@ function PostedJobs() {
   return (
     <div className="p-4 shadow mb-4">
       <SectionHeader title="Posted Jobs" />
-      <div className="d-flex gap-2">
+      <div className="row">
         {jobList.map((job, idx) => {
-          return <JobCard key={idx} id={idx} jobDetail={job} />;
+          return (
+            <div className="col-md-3 col-xs-6 p-1">
+              <JobCard key={idx} id={idx} jobDetail={job} />
+            </div>
+          );
         })}
       </div>
     </div>
