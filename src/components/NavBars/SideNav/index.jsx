@@ -51,7 +51,7 @@ const menuList = [
 
 function SideNav() {
   return (
-    <div className="side-nav d-flex flex-column gap-2 justify-content-start align-items-center p-2 h-100">
+    <div className="side-nav d-none d-md-flex flex-column gap-2 justify-content-start align-items-center p-2 h-100">
       {menuList.map((menu, idx) => {
         return <NavMenu key={idx} label={menu.label} icon={menu.icon} />;
       })}
